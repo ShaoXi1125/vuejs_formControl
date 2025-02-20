@@ -7,9 +7,7 @@ export const useFormStore = defineStore(
         email: '',
         gender: '',
         interests: [],
-        country: '',
-        file:null,
-        filename:'',
+        country: ''
     }),
 
     actions: {

@@ -13,7 +13,8 @@ const goBack = ()=>{
 
 <template>
 <div>
-    <h1>Data List: </h1>
+    <el-card>
+        <h1>Data List: </h1>
     <p>Name: {{formData.name}}</p>
     <p>Email: {{formData.email}}</p>
     <p>Gender: {{formData.gender}}</p>
@@ -21,6 +22,8 @@ const goBack = ()=>{
     <p>Country: {{formData.country}}</p>
     <p>Filename: {{formData.filename}}</p>
 
-    <button @click="goBack">Back</button>
+    <el-button type="primary" @click="goBack">Back</el-button>
+    </el-card>
+    
 </div>
 </template>
